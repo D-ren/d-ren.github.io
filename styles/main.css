@@ -175,23 +175,23 @@ nav a:hover {
 }
 
 .services__items {
-    margin: 0 auto;
     text-align: center;
     margin-top: 60px;
 }
 
 .services__item {
-    margin: 0 auto;
-    text-align: center;
     display: inline-block;
     margin-right: 70px;
+}
+
+.services__item:nth-child(3n-2) {
+    margin-right: 0px;
 }
 
 .services__icon {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-
 }
 
 .services__titles {
@@ -202,5 +202,12 @@ nav a:hover {
     width: 280px;
     text-align: left;
     display: inline-block;
-    vertical-align: top;
+}
+
+.line {
+    display: block;
+    width: 1200px;
+    height: 3px;
+    background-color: rgb(229,229,229);
+    margin: 50px auto;
 }
